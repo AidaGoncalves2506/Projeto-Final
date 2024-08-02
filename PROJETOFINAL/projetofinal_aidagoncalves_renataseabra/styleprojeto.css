@@ -1,0 +1,184 @@
+body {
+    margin: 50px;
+    background-repeat: no repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    text-align: center; /* Centraliza todo o texto */
+}
+
+h1 {
+    font-family: Serif black;
+    color: #38395D;
+    text-shadow: 3px 4px 5px white;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: Serif black;
+    color: #38395D;
+    text-shadow: 2px 3px 4px white;
+}
+
+h3 {
+    font-family: Serif black;
+    color: #38395D;
+    margin-block: 0px;
+}
+
+h4 {
+    font-family: Serif black;
+    color: #38395D;
+}
+
+h5 {
+    font-family: Serif black;
+    color: #38395D;
+}
+
+h6 {
+    font-family: Serif rgb(240, 237, 237);
+    color: #38395D;
+}
+
+.funcionamento-lista {
+    font-size: 20px;
+    list-style-type: none; /* Remove os pontos da lista */
+    padding: 0; /* Remove o padding padrão */
+    margin: 0; /* Remove a margem padrão */
+}
+
+.funcionamento-lista li {
+    text-align: center; /* Alinha o texto ao centro */
+    margin-bottom: 30px; /* Espaçamento entre os itens */
+}
+
+p {
+    margin-block: 0px;
+}
+
+.div {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+footer {
+    background-color: #2c3e50; /* Cor de fundo escura */
+    color: #ecf0f1; /* Texto claro */
+    padding: 20px 0;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.footer-content h4 {
+    color: #af0ab5; /* Cor dos títulos */
+    margin-bottom: 15px;
+}
+
+.social-networks-links a {
+    color: #ecf0f1; /* Cor dos links */
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+.social-networks-links a:hover {
+    color: #af0ab5; /* Cor ao passar o mouse */
+}
+
+.footer-copyright {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.footer-copyright p {
+    margin: 0;
+}
+
+.telacustom {
+    display: flex;
+    justify-content: space-between; /* Espaço igual entre as imagens */
+    width: 400px;
+    height: 224px;
+}
+
+.button {
+    background-color: #38395D;
+    border: none;
+    color: white;
+    padding: 1px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 18px 2px;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: white; 
+    color: #38395D; 
+    border: 2px solid #38395D;
+}
+
+#hanGo-info {
+    display: flex; /* Usar flexbox para o layout */
+    flex-direction: column; /* Colocar os itens em coluna */
+    padding: 25px; /* Espaçamento interno */
+    align-items: center; /* Centraliza os itens dentro do container */
+}
+
+.info-container {
+    display: flex; /* Usar flexbox para o container */
+    flex-direction: column; /* Colocar os itens em coluna */
+    width: 100%; /* Largura total */
+    align-items: center; /* Centraliza os itens dentro do container */
+}
+
+.por-que, .equipa {
+    font-size: 20px;
+    margin-top: 30px;
+    padding: 15px; /* Espaçamento interno */
+    border: 1px solid #ccc; /* Borda da caixa */
+    border-radius: 5px; /* Cantos arredondados */
+    background-color: #f9f9f9; /* Cor de fundo padrão */
+    margin-bottom: 25px; /* Espaçamento entre as seções */
+    transition: background-color 0.3s ease; /* Transição suave para a cor de fundo */
+}
+
+.por-que:hover, .equipa:hover {
+    background-color: #c883eb; /* Cor ao passar o mouse */
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 250px;
+    background-color: #f9f9f9;
+    color: #000;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 100%; /* Coloca acima do texto */
+    left: 50%;
+    margin-left: -125px; /* Ajusta para centralizar */
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
